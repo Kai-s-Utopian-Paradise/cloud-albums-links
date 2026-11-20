@@ -1,3 +1,7 @@
+# Local album links. This file can hold a private share URL.
+photo-feed.local.json
+
+# Downloaded photos and videos, and any JSON you save yourself.
 # Local album links. Anything in here can see the album.
 photo-feed.local.json
 *.local.json
