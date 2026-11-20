@@ -2,6 +2,12 @@
 photo-feed.local.json
 
 # Downloaded photos and videos, and any JSON you save yourself.
+# Local album links. Anything in here can see the album.
+photo-feed.local.json
+*.local.json
+.env
+
+# Downloaded photos, videos, and JSON listings. Do not commit these.
 downloads/
 photo-feed-downloads/
 output/
@@ -15,3 +21,6 @@ venv/
 .pytest_cache/
 *.egg-info/
 .mypy_cache/
+
+# Mac
+.DS_Store
